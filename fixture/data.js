@@ -1,4 +1,4 @@
-export const devLink = {
+const devLink = {
   id: 1,
   url: 'http://jeonghwan-kim.github.io/2018/07/16/react-app-overview.html',
   writtenAt: '2020/01',
@@ -37,7 +37,7 @@ export const devLink = {
   deletedAt: null,
 };
 
-export const devLinks = [
+const devLinks = [
   {
     id: 1,
     url: 'https://www.prisma.io/',
@@ -375,3 +375,9 @@ export const devLinks = [
     deletedAt: null,
   },
 ];
+
+
+module.exports = {
+  devLink,
+  devLinks
+}
